@@ -11,6 +11,8 @@ body {
   margin: auto;
   position: relative;
   background-image: url(../img/image_fond.webp);
+  background-repeat: repeat;
+  background-size: 400px;
 }
 
 header {
@@ -50,6 +52,7 @@ h1 img {
   border-radius: 30px;
   margin: 30px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -85,18 +88,60 @@ figure img {
 
 .stickers {
   width: 200px;
-  transform: translate(0%, -20px);
+  transform: translate(-10px, -20px);
 }
 
 .sticker {
   width: 200px;
-  transform: translate(50%, -30px);
+  transform: translate(105px, -30px);
 }
 
 .infos {
-  transform: translate(140px, -310px);
+  transform: translate(140px, -360px);
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 12px;
+}
+
+.informations {
+  transform: translate(40px, -330px);
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 12px;
+}
+
+.texte_orange {
+  color: #ef781f;
+}
+
+.texte_rouge {
+  color: #b04f67;
+}
+
+.texte_bleu {
+  color: #8698ce;
+}
+
+.button {
+  padding:15px 40px;
+  background-image: url(../img/craft\ copie.webp);
+  border-radius: 10px;
+  margin-left: 90px;
+}
+
+.carte {
+  transform: translate(15px);
+}
+
+h3 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #2d5449;
+}
+
+.adresses {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 14px;
+  text-align: center;
 }
 
 
