@@ -10,10 +10,12 @@ body {
   max-width: 375px;
   margin: auto;
   position: relative;
+  background-image: url(../img/image_fond.webp);
 }
 
 header {
   background-image: url(../img/craft.webp);
+  display: flex;
 }
 
 h1 {
@@ -25,7 +27,77 @@ h1 img {
   margin: 30px 20px;
 }
 
-header nav img {
-  max-width: 100px;
+.redimention img{
+  height: 30px;
 }
+
+.boite_icones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 80px 20px 0;
+}
+
+.boite_icones img {
+  width: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.contenu {
+  background-color: #e6d2be;
+  border-radius: 30px;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #2d5449;
+  margin: 0;
+}
+
+.textes {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 16px;
+  text-align: center;
+  margin: 30px;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+figure img {
+  width: 250px;
+  align-items: center;
+}
+
+.legende {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.stickers {
+  width: 200px;
+  transform: translate(0%, -20px);
+}
+
+.sticker {
+  width: 200px;
+  transform: translate(50%, -30px);
+}
+
+.infos {
+  transform: translate(140px, -310px);
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 12px;
+}
+
+
 
