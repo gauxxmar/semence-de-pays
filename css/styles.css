@@ -144,5 +144,15 @@ h3 {
   text-align: center;
 }
 
+footer {
+  background-image: url(../img/craft.webp);
+  padding: 30px;
+}
+
+footer a img {
+  width: 100px;
+  margin-top: 50px;
+}
+
 
 
