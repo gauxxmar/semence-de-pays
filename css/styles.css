@@ -1,0 +1,31 @@
+/*font-family: 'Antonio', sans-serif;
+  font-family: 'Sue Ellen Francisco', cursive;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  background-image: url(../img/craft.webp);
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 img {
+  width: 140px;
+  margin: 30px 20px;
+}
+
+header nav img {
+  max-width: 100px;
+}
+
