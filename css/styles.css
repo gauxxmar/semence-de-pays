@@ -102,12 +102,14 @@ figure img {
   transform: translate(140px, 70px);
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 12px;
+  width: 175px;
 }
 
 .informations {
   transform: translate(40px, 30px);
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 12px;
+  width: 175px;
 }
 
 .texte_orange {
