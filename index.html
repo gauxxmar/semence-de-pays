@@ -16,23 +16,23 @@
       <img src="img/SVG/logo.svg" alt="logo">
     </h1>
       <nav class="boite_icones">
-        <a href="">
+        <a href="#start">
           <img src="img/SVG/sdp.svg" alt="icone semences de pays">
         </a>
-        <a href="">
+        <a href="#graines">
           <img src="img/SVG/graines.svg" alt="icone graines">
         </a>
-        <a class="redimention" href="">
+        <a class="redimention" href="#carte">
           <img src="img/SVG/location.svg" alt="icone localisation">
         </a>
-        <a class="redimention" href="">
+        <a class="redimention" href="#mail">
           <img src="img/SVG/mail.svg" alt="icone mail">
         </a>
       </nav>
   </header>
   <main>
     <div class="contenu">
-      <h2>
+      <h2 id="start">
         Semences de pays:
       </h2>
       <p class="textes">
@@ -50,7 +50,7 @@
       </figure>
     </div>
     <div class="contenu">
-      <h2>
+      <h2 id="graines">
         Nos semences:
       </h2>
       <figure>
@@ -75,7 +75,12 @@
           A   M   J   J   A   S   <span class="texte_orange">O   N</span>   D<br>
           <span class="texte_orange">Distance: </span>   100 x 100cm
         </p>
-      <img src="img/photo_courge.webp" alt="courge">
+        <div class="images_boites">
+          <img src="img/boite_courge_devant copie.webp" alt="image boite courge">
+        </div>
+        <div class="images_boites">
+          <img src="img/boite_courge_derriere copie.webp" alt="image boite courge">
+        </div>
       <figure>
         <img src="img/photo_haricot.webp" alt="graines d'haricots">
         <figcaption class="legende">
@@ -98,7 +103,12 @@
           graines en cercle.<br>
           <span class="texte_rouge">Profondeur: </span> 2cm
         </p>
-      <img src="img/photo_haricot.webp" alt="jkhgfd">
+        <div class="images_boites">
+          <img src="img/boite_haricot_devant copie.webp" alt="image boite haricot">
+        </div>
+        <div class="images_boites">
+          <img src="img/boite_haricot_derriere copie.webp" alt="image boite haricot">
+        </div>
       <figure>
         <img src="img/photo_bleuet.webp" alt="jardinier bleuet">
         <figcaption class="legende">
@@ -120,7 +130,12 @@
           <span class="texte_bleu">Floraison:</span> J   F   M   A   M   
           <span class="texte_bleu">J   J   A</span>   S   O   N   D
         </p>
-      <img src="img/photo_bleuet.webp" alt="jhkgj">
+        <div class="images_boites">
+          <img src="img/boite_bleuet_devant copie.webp" alt="images boite bleuet">
+        </div>
+        <div class="images_boites">
+          <img src="img/boite_bleuet_derriere copie.webp" alt="images boite bleuet">
+        </div>
       <a class="button" href="">
         SHOP
       </a>
@@ -129,7 +144,7 @@
       </p>
     </div>
     <div class="contenu">
-      <h2>
+      <h2 id="carte">
         Points de ventes:
       </h2>
       <img class="carte" src="img/carte.svg" alt="carte">
@@ -180,7 +195,9 @@
         Serres de Belle-Idée<br>
         Chemin du Petit-Bel-Air 2<br>
         1225 Chêne-Bourg<br>
-        info@semencesdepays.ch<br>
+        <a id="mail" href="mailto:">
+          info@semencesdepays.ch<br>
+        </a>
         <a href="">
           <img src="img/SVG/fleche_footer.svg" alt="fleche footer">
         </a>
