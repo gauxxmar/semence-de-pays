@@ -89,21 +89,23 @@ figure img {
 .stickers {
   width: 200px;
   transform: translate(-10px, -20px);
+  position: absolute;
 }
 
 .sticker {
   width: 200px;
   transform: translate(105px, -30px);
+  position: absolute;
 }
 
 .infos {
-  transform: translate(140px, -360px);
+  transform: translate(140px, 70px);
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 12px;
 }
 
 .informations {
-  transform: translate(40px, -330px);
+  transform: translate(40px, 30px);
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 12px;
 }
@@ -121,10 +123,14 @@ figure img {
 }
 
 .button {
-  padding:15px 40px;
+  padding:10px 40px;
   background-image: url(../img/craft\ copie.webp);
   border-radius: 10px;
   margin-left: 90px;
+  font-family: 'Antonio', sans-serif;
+  font-size: 30px;
+  color: #2d5449;
+  text-decoration: none;
 }
 
 .carte {
@@ -149,10 +155,36 @@ footer {
   padding: 30px;
 }
 
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
 footer a img {
   width: 100px;
   margin-top: 50px;
 }
 
+.images_boites img {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.photos_boites {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 50px 0;
+  padding: 120px 0 30px 0;
+}
+
+.photos_boites_plus {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 70px 0 50px 0;
+}
 
 
